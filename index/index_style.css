@@ -131,21 +131,16 @@ body {
     height: 110%;
 }
 
-.line-1 {
-
+.myName {
     border-right: 2px solid rgba(0, 0, 0, .75);
-    font-size: 180%;
     text-align: center;
     white-space: nowrap;
     overflow: hidden;
-    transform: translateX(-10px);
-}
-
-/* Animation */
-.anim-typewriter {
     animation: typewriter 4s steps(44) 1s 1 normal both,
         blinkTextCursor 500ms steps(44) infinite normal;
 }
+
+
 
 @keyframes typewriter {
     from {
@@ -153,7 +148,7 @@ body {
     }
 
     to {
-        width: 8em;
+        width: 100%;
     }
 }
 
