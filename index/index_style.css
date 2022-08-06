@@ -289,6 +289,8 @@ body {
     background-color: rgba(159, 156, 156, 0.2);
     padding: 5px;
     position: relative;
+    border-radius: 5px;
+
 }
 
 .skill__lang {
@@ -313,7 +315,7 @@ body {
     color: black;
     font-weight: bold;
     height: inherit;
-
+    padding: 5px;
 }
 
 .about-section__features {
