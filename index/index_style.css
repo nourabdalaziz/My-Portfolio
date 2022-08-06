@@ -350,31 +350,53 @@ body {
     width: 100%;
 }
 
-
 .courses-section__courseItem {
     width: 25%;
     height: 70%;
     background: white;
-    overflow: hidden;
-    border-radius: 10px;
+    border-radius: 6px;
+    color: rgba(0, 0, 0, 0.87);
+    background: #f5f5f5ff;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.14), 0 4px 2px -3px rgba(0, 0, 0, 0.2), 0 2px 6px 0 rgba(0, 0, 0, 0.12);
+
 }
 
+.courses-section__courseItem:hover{
+    transform: scale(1.05);
+    opacity: 0.5;
+    cursor: pointer;
+}
 .course-content {
     width: 100%;
     height: 50%;
-    border: 1px solid black;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+
+
 }
 
-.course__btn {
+.course-content:first-child {
+    position: relative;
+    top: -30px;
+}
+
+
+.course-content__btn {
     color: #f5f5f5;
     padding: 0.5rem 0.5rem;
     margin-bottom: 0.5rem;
     background-color: black;
     border-radius: 5px;
+}
+
+
+.course-content__img {
+    height: 100%;
+    width: 90%;
+    border-radius: 6px;
+    box-shadow: 0 10px 30px -7px rgba(0, 0, 0, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
 }
 
 /*WORKS SECTION STYLING*/
@@ -408,7 +430,7 @@ body {
     height: 70%;
     background: black;
     display: flex;
-    box-shadow: 60px -16px rgb(235, 235, 224);
+    box-shadow: 60px -30px rgb(222, 222, 205);
     overflow: hidden;
     border-radius: 10px;
 
